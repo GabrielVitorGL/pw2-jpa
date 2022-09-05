@@ -1,3 +1,4 @@
+
 package br.com.etechoracio.jpa;
 
 import org.springframework.boot.SpringApplication;
