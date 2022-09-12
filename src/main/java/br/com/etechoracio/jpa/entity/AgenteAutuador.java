@@ -11,7 +11,10 @@ import javax.persistence.Table;
 
 import br.com.etechoracio.jpa.enums.StatusAgenteEnum;
 import br.com.etechoracio.jpa.enums.TipoAgenteEnum;
-
+import lombok.Getter;
+import lombok.Setter;
+@Getter
+@Setter
 @Entity
 @Table(name = "TBL_AGENTE_AUTUADOR")
 public class AgenteAutuador {
